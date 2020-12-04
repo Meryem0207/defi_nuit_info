@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <title> SURFRIDER </title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+			<meta name="HandheldFriendly" content="true" />
+			<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+			<link rel="stylesheet" type="text/css"  href="style2.css " />
+			<link rel="stylesheet" type="text/css" href="bootstrap-grid.css" />
+	</head>
+		<body>
+		<nav>
+	
+			<div id="onglet">
+                      <ul>
+                        <li class="text"><a href="#">Accueil</a></li>
+                        <li class="text"><a href="#">Spots Nord</a></li>
+                        <li class="text"><a href="#">Spots Sud</a></li>
+                        <li class="text"><a href="#">Spots Ouest</a></li>
+                        <li class="text"><a href="#">Formulaire</a></li>
+                    </ul>
+             </div>
+			
+             <img id="logo" src="requin.png" alt="Logo"/>
+		</nav>
+		<h2>Spots Nord</h2>
+	<section class="Meryem">
+	<div class="containe">
+		<div class="colonne numOne">Indice pollution</div>
+		<div class="colonne numTwo">Indice population</div>
+		<div class="colonne numThree"></div>
+	</div>
+	</section>
+		</body>
