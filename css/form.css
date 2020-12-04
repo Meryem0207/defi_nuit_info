@@ -65,7 +65,7 @@ nav ul li a:hover{
 }
 
 h4 {
-  color: #7ed321;
+  color: rgb(0,115, 190);
 }
 input,
 input[type="radio"] + label,
@@ -86,13 +86,13 @@ select {
 }
 input:focus {
   outline: 0;
-  border-color: #64ac15;
+  border-color:  rgb(2, 105, 173);
 }
 input:focus + .input-icon i {
-  color: #7ed321;
+  color: rgb(0,115, 190);
 }
 input:focus + .input-icon:after {
-  border-right-color: #7ed321;
+  border-right-color: rgb(0,115, 190);
 }
 input[type="radio"] {
   display: none;
@@ -120,9 +120,9 @@ input[type="radio"]:checked + label,
 input:checked + label:before,
 select:focus,
 select:active {
-  background-color: #7ed321;
+  background-color: rgb(0,115, 190);
   color: #fff;
-  border-color: #64ac15;
+  border-color: rgb(2, 105, 173);
 }
 input[type="checkbox"] {
   display: none;
@@ -172,7 +172,7 @@ select:active {
   outline: 0;
 }
 select option {
-  background-color: #7ed321;
+  background-color: rgb(0,115, 190);
   color: #fff;
 }
 .input-group {
