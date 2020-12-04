@@ -74,6 +74,7 @@ nav ul li a:hover{
 
 .firstSection{
     margin: 2em;
+
     display:flex;
     border-radius: 1px;
     border: rgb(42,42,46) solid;
@@ -119,7 +120,6 @@ nav ul li a:hover{
 .secondSection{
     display: flex;
     margin: 2em;
-
     height: 60vh;
     background-color: #cfcccc;
     border-radius: 2px;
