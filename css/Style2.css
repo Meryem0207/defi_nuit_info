@@ -1,0 +1,174 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #b9b9b9;
+  background-color: #e3e3e3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(0, 115, 188);
+  flex-wrap: wrap;
+  min-height: 4rem;
+
+}
+
+nav #logo {
+    max-height: 4rem;
+    width: auto;
+}
+#logo img{
+	height : 4rem;
+	width : auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+nav ul li {
+    padding:0em 1em;
+    font-size: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(231, 201, 81);
+
+}
+
+nav ul li a:hover{
+    color:rgb(255, 92, 56);
+}
+
+.text {
+    font-family: "Odin", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#entete{
+    height : 40%;
+    width : 100% ;
+    background-image : ;
+    margin : 2% 2% 2% 2%;
+}
+
+#choix{
+	margin : 3% 3% 10% 4%;
+}
+
+#selection1{
+    float : left;
+    background-image : ;
+    margin : 0;
+    border : solid black 0.2em;
+    padding : 0 4em 0 3em;
+}
+
+#selection2{
+    float : left;
+    background-image : ;
+    margin : 0;
+    border : solid black 0.2em;
+    padding : 0 4em 0 3em;
+}
+
+#selection3{
+    float : left;
+    background-image : ;
+    margin : 0;
+    border : solid black 0.2em;
+    padding : 0 4em 0 3em;
+}
+
+#selection4{
+    float : left;
+    background-image : ;
+    margin : 0;
+    border : solid black 0.2em;
+    padding : 0 4em 0 3em;
+}
+
+#choix #bis{
+	max-height: 7.5rem;
+    width: auto;
+}
+
+#choix #hos{
+	max-height: 7.5rem;
+    width: auto;
+}
+
+#choix #bia{
+	max-height: 7.5rem;
+    width: auto;
+}
+
+#choix #car{
+	max-height: 7.5rem;
+    width: auto;
+}
+
+#choix p{
+	text-align : center;
+}
+
+#entete h3{
+	text-align : center;
+}
+
+#entete #tete{
+	max-height: auto;
+    width: 30em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.Meryem {
+	height:100vh;
+	width:100%;
+}
+.containe {
+	display: flex;
+	/* width:100%; */
+	height:100%;
+	margin: 2em;
+	margin-top:80px;
+}
+.colonne {
+	width: 33.333%;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	font-size:30px;
+	text-align:center;
+	text-decoration:underline;
+	font-family:roboto;
+}
+
+h2{
+	top:100px;
+	text-align:center;
+	color:black;
+	font-size:100px;
+	font-family:roboto;
+}
